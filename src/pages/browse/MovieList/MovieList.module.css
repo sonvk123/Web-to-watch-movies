@@ -1,0 +1,49 @@
+.MoviesList {
+  margin-left: 24px;
+}
+h1{
+  margin-left: 24px;
+}
+
+.list,
+.list_Originals {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Thay đổi màu thanh cuộn tùy ý */
+}
+
+.list,
+.list_Originals hideScrollbar::-webkit-scrollbar {
+  /* display: none; */
+}
+.list,
+.list_Originals hideScrollbar:hover {
+  scrollbar-color: #ff0000 transparent; /* Hiệu ứng màu khi hover lên thanh cuộn tùy ý */
+}
+
+
+.list_Originals img {
+  width: 200px;
+  height: 250px;
+  transition: transform 0.2s ease;
+}
+.list_Originals img:hover {
+  width: 220px;
+  height: 270px;
+  transform: scale(1.05);
+}
+.list img {
+  width: 250px;
+  height: 150px;
+  transition: transform 0.2s ease;
+}
+
+.list img:hover {
+  width: 270px;
+  height: 170px;
+  transform: scale(1.05);
+}

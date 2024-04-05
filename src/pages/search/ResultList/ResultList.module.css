@@ -1,0 +1,17 @@
+.ResultList {
+}
+.ResultList h1 {
+  color: white;
+  margin-bottom: 24px;
+}
+.image {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+.ResultList img {
+  width: 150px;
+  height: 250px;
+  transition: transform 0.2s ease;
+}

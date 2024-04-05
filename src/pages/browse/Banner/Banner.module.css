@@ -1,0 +1,30 @@
+/* tạo css cho toàn trang */
+.Banner {
+  height: 550px;
+  color: white;
+  display: flex;
+  justify-content: left;
+}
+/* tạo css cho thong tin phim */
+.content {
+  margin-top: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+/* các nút nhấn */
+.button button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.76);
+  border: 1px solid rgba(16, 15, 15, 0.414);
+}
+.button_Play {
+  margin-right: 24px;
+  width: 48px;
+  height: 30px;
+}
+.button_My_list {
+  width: 100px;
+  height: 30px;
+}

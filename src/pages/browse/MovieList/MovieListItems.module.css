@@ -1,0 +1,41 @@
+.MovieListItems {
+  margin: 0 24px;
+  display: flex;
+  gap: 20px;
+  overflow-y: hidden;
+}
+
+
+
+/* tại kiểu cho thanh kéo ngang */
+.MovieListItems::-webkit-scrollbar-track {
+  border-radius: 24px;
+  background-color: transparent;;
+}
+
+
+
+.MovieListItems::-webkit-scrollbar {
+  border-radius: 24px;
+  width: 0px;
+  background-color: transparent;
+}
+
+.MovieListItems::-webkit-scrollbar-thumb {
+  border-radius: 24px;
+  background-color: transparent;
+}
+
+/* Hiển thị thanh kéo khi di chuột vào hoặc nhấn vào */
+.MovieListItems:hover::-webkit-scrollbar,
+.MovieListItems:focus::-webkit-scrollbar,
+.MovieListItems:active::-webkit-scrollbar {
+  width: 10px;
+  background-color: #372626;
+}
+.MovieListItems:hover::-webkit-scrollbar-thumb,
+.MovieListItems:focus::-webkit-scrollbar-thumb,
+.MovieListItems:active::-webkit-scrollbar-thumb {
+  width: 10px;
+  background-color: #e64444;
+}
